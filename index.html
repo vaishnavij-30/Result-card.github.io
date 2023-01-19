@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MarkSheet</title>
+	<style type="text/css">
+		#Rec
+        {
+            width: 870px; height: 835px;
+            border: 2px dotted black;
+            margin-left: 30px; 
+        }   
+        #a
+        {
+	        width: 930px; height: 840px; margin-left: 300px;
+	        background: linear-gradient(#ff99bb,#ffff);
+        }
+        #I1
+        {   background-image: url("D:Web Development/logo.jpeg"); background-size: cover; width: 150px; height: 148px; border: 1px solid black;
+        	margin-top: 20px; margin-left: 46px; float: left;
+        }
+        #I2
+        {   background-image: url("D:Web Development/logo2.jpeg"); background-size: cover; width: 150px; height: 148px; border: 1px solid black;
+        	margin-top: 20px; margin-left: 670px; 
+        }
+        #E
+        {
+         	margin-left: -465px; margin-top: 10px; float: left;
+        }
+        #N
+        {   width: 275px; height: 17px;
+        	float: left; margin-top: -40px; margin-left: 175px;
+        }
+        #E1
+        {
+        	margin-left: -790px; margin-top: 40px; float: left;
+        }
+        #S
+        {   width: 110px; height: 17px;
+        	float: left; margin-top: -40px; margin-left: 74px;
+        }
+        .D
+        {   margin-left: 10px;
+        	width: 30px;
+        }
+        .D1
+        {
+     	    width: 30px;
+        }
+        .w
+        {
+        	width: 38px;
+        }
+        .w1
+        {
+        	width: 50px;
+        }
+        
+	</style>
+</head>
+<body>
+	<div id="a"><div id="Rec">
+		<div id="I1"></div>
+		<div style="margin-left: 95px; float: left;"><h4>Jeevan Pratishthan Womens Bca College</h4></div>
+		<div style="margin-left: 50px; float: left; margin-top: -40PX;"><h4>Plot No E-51, MIDC NEAR IT PARK, LATUR-413531</h4></div>
+		<div style="margin-left: -265px; float: left; margin-top: -10PX;"><h4>AFFILIATED TO</h4></div>
+		<div style="margin-left: 45px; float: left; margin-top: -12PX;"><h4>SHREEMATI NATHIBAI DAMODAR THACKERSEY</h4></div>
+		<div style="margin-left: 43px; float: left; margin-top: -29PX;"><h2>WOMEN'S UNIVERSITY, MUMBAI</h2></div>
+		<div id="I2"></div>
+		<div style="margin-left: 320px; float: left; margin-top: -25PX;"><h3>Statement Of Marks</h3></div>
+		<div style="margin-left: 188px; float: left; margin-top: -15PX;"><h3>Date 10 May 2015</h3></div>
+		<div style="margin-left: 155px; float: left; margin-top: -25PX;"><h4>FIRST YEAR BACHELOR OF COMPUTER APPLICATION (BCA) Semester - II,</h4></div>
+		<div style="margin-left: 290px; float: left; margin-top: -33PX;"><h3>Examination March - 2015</h3></div>
+
+		<form>
+			<div id="E"><tr><td><h3>Name of the student: </h3></td></tr><input type="text" name="Name" id="N"></div>
+		</form>
+
+		<div style="margin-left: 670px; float: left; margin-top: -10PX;"><h3>Medium:ENGLISH</h3></div>
+		
+		<form>
+			<div id="E1"><tr><td><h3>Seat No: </h3></td></tr><input type="number" name="number" id="S" 
+			></div>
+        </form>
+
+		<div style="margin-left: 270px; float: left; margin-top: -10PX;"><h3>College Code:235</h3></div>
+		 <div style="margin-left: 35px; float: left; margin-top: -10PX;"><h3>Centre:241-LATUR</h3></div>
+		<div style="margin-left: 640px; float: left; margin-top: -60PX;"><h3>PRN:2014011610001153</h3></div> 
+
+		<table border="2"; width="100%"; cellpadding="3"; cellspacing="0">
+			<tr>
+				<td style="text-align: center;">Subject Code</td>
+				<td style="text-align: center;">Subject</td>
+				<td style="text-align: center;">Credits</td>
+				<td style="text-align: center;">Internal Marks</td>
+				<td style="text-align: center;">External Marks</td>
+				<td style="text-align: center;">Total Marks</td>
+				<td style="text-align: center;">Grade</td>
+			</tr>
+			<tr>
+				<td style="text-align: center;">2101</td>
+				<td style="text-align: center;">Introduction to Logic Circuit and Digital Design</td>
+				<td style="text-align: center;">4</td>
+				<td style="text-align: center;"><input type="number" name="number" class="D" id="i1" onkeyup="result(),Alert()"> /25</td>
+				<td style="text-align: center;"><input type="number" name="number" class="D" id="e1" onblur="Add(),grade()" onkeyup="result(),Alert()"> /75</td>
+				<td style="text-align: center;"><input type="number" name="number" class="D1 w" id="t1" disabled="">/100</td>
+				<td style="text-align: center;"><input type="text" name="text" class="D" id="g1" disabled=""></td>
+            </tr>
+            <tr>
+				<td style="text-align: center;">2102</td>
+				<td style="text-align: center;">Descrete Structure and Graph Theory</td>
+				<td style="text-align: center;">4</td>
+				<td style="text-align: center;"><input type="number" name="number" class="D" id="i2" onkeyup="result(),Alert()"> /25</td>
+				<td style="text-align: center;"><input type="number" name="number" class="D" id="e2" onblur="Add(),grade()" onkeyup="result(),Alert()"> /75</td>
+				<td style="text-align: center;"><input type="number" name="number" class="D1 w" id="t2" disabled="">/100</td>
+				<td style="text-align: center;"><input type="text" name="text" class="D" id="g2" disabled=""></td>
+            </tr>
+            <tr>
+				<td style="text-align: center;">2103</td>
+				<td style="text-align: center;">Advanced C</td>
+				<td style="text-align: center;">4</td>
+				<td style="text-align: center;"><input type="number" name="number" class="D" id="i3" onkeyup="result(),Alert()"> /25</td>
+				<td style="text-align: center;"><input type="number" name="number" class="D" id="e3" onblur="Add(),grade()" onkeyup="result(),Alert()"> /75</td>
+				<td style="text-align: center;"><input type="number" name="number" class="D1 w" id="t3" disabled="">/100</td>
+				<td style="text-align: center;"><input type="text" name="text" class="D" id="g3" disabled=""></td>
+            </tr>
+            <tr>
+				<td style="text-align: center;">2104</td>
+				<td style="text-align: center;">Environmental Sciences And RTI</td>
+				<td style="text-align: center;">4</td>
+				<td style="text-align: center;"><input type="number" name="number" class="D" id="i4" onkeyup="result(),Alert()"> /25</td>
+				<td style="text-align: center;"><input type="number" name="number" class="D" id="e4" onblur="Add(),grade()" onkeyup="result(),Alert()"> /75</td>
+				<td style="text-align: center;"><input type="number" name="number" class="D1 w" id="t4" disabled="">/100</td>
+				<td style="text-align: center;"><input type="text" name="text" class="D" id="g4" disabled=""></td>
+            </tr>
+            <tr>
+				<td style="text-align: center;">2101</td>
+				<td style="text-align: center;">Advanced C Lab</td>
+				<td style="text-align: center;">2</td>
+				<td style="text-align: center;"><input type="number" name="number" class="D" id="i5" onkeyup="result(),Alert()"> /25</td>
+				<td style="text-align: center;"><input type="number" name="number" class="D" id="e5" onblur="Add(),grade1()" onkeyup="result(),Alert()"> /25</td>
+				<td style="text-align: center;"><input type="number" name="number" class="D1 w" id="t5" disabled=""> /50</td>
+				<td style="text-align: center;"><input type="text" name="text" class="D" id="g5" disabled=""></td>
+            </tr>
+            <tr>
+				<td style="text-align: center;">2102</td>
+				<td style="text-align: center;">Open Sources Operating System And Application Software Lab</td>
+				<td style="text-align: center;">2</td>
+				<td style="text-align: center;"><input type="number" name="number" class="D" id="i6" onblur="Add()" onkeyup="result(),Alert()"> /25</td>
+				<td style="text-align: center;"><input type="number" name="number" class="D" id="e6" onkeyup="result(),Alert()" onblur="Add(),grade1(),RP()"> /25</td>
+				<td style="text-align: center;"><input type="number" name="number" class="D1 w" id="t6" disabled="" > /50</td>
+				<td style="text-align: center;"><input type="text" name="text" class="D" id="g6" disabled=""></td>
+            </tr>
+            <tr>
+            	<td style="text-align: center;" colspan="2">Total</td>
+				<td style="text-align: center;">20</td>
+				<td style="text-align: center;"><input type="number" name="number" class="D w" id="i7" disabled=""></td>
+				<td style="text-align: center;"><input type="number" name="number" class="D w" id="e7" disabled=""></td>
+				<td style="text-align: center;"><input type="number" name="number" class="D w" id="t7" disabled=""></td>
+				<td style="text-align: center;"><input type="text" name="text" class="D" id="g7" disabled=""></td>
+            </tr>
+		</table><br><br>
+
+        <table border="2"; width="100%"; cellpadding="3"; cellspacing="0">
+        	<tr>
+        		<td style="text-align: center;">Total Credits</td>
+        		<td style="text-align: center;">G.P.A</td>
+        		<td style="text-align: center;">Grade</td>
+        		<td style="text-align: center;">Grand Total</td>
+        		<td style="text-align: center;">Result</td>
+        		<td style="text-align: center;">Percentage</td>
+        	</tr>
+        	<tr>
+        		<td style="text-align: center;">20</td>
+        		<td style="text-align: center;"><input type="number" name="number" class="D w" id="G1" disabled=""></td>
+        		<td style="text-align: center;"><input type="text" name="text" class="D w" id="G2" disabled=""></td>
+        		<td style="text-align: center;"><input type="number" name="number" class="D w" id="G3" disabled=""> /500</td>
+        		<td style="text-align: center;"><input type="text" name="number" class="D w" id="R" disabled=""></td>
+        		<td style="text-align: center;"><input type="text" name="number" class="D w1" id="P" disabled=""></td>
+        	</tr>
+        </table>
+        <div style="float: left;">
+        <div style="margin-left: 120px; margin-top: 40px;"><h4>PRINCIPAL</h4></div>
+        <div style="margin-top: -18px; margin-left: 40px">WOMEN'S BCA COLLEGE LATUR</div>
+        </div>
+        
+        <div style="margin-left: 480px; margin-top: 40px;"><h4>CONTROLLER OF EXAMINATION</h4></div>
+        <div style="margin-left: 460px; margin-top: -18px;"><h4>SNDT WOMEN'S UNIVERSITY,MUMBAI</h4></div>
+        
+		
+	</div>
+    </div>
+    
+<script type="text/javascript">
+	    function Add() 
+		{
+			for(var i = 1; i<7; i++){
+     		      var a = parseInt(document.getElementById('i'+i).value);
+			      var b = parseInt(document.getElementById('e'+i).value);
+			      var c = document.getElementById('t'+i).value=a+b;
+			}
+
+                var d = parseInt(document.getElementById("i1").value);
+                var e = parseInt(document.getElementById("i2").value);
+                var f = parseInt(document.getElementById("i3").value);
+                var g = parseInt(document.getElementById("i4").value);
+                var h = parseInt(document.getElementById("i5").value);
+                var j = parseInt(document.getElementById("i6").value);
+                var k = document.getElementById("i7").value=d+e+f+g+h+j;
+
+                var l = parseInt(document.getElementById("e1").value);
+                var m = parseInt(document.getElementById("e2").value);
+                var n = parseInt(document.getElementById("e3").value);
+                var o = parseInt(document.getElementById("e4").value);
+                var p = parseInt(document.getElementById("e5").value);
+                var q = parseInt(document.getElementById("e6").value);
+                var r = document.getElementById("e7").value=l+m+n+o+p+q;
+
+                var T1 = parseInt(document.getElementById("t1").value);
+                var T2 = parseInt(document.getElementById("t2").value);
+                var T3 = parseInt(document.getElementById("t3").value);
+                var T4 = parseInt(document.getElementById("t4").value);
+                var T5 = parseInt(document.getElementById("t5").value);
+                var T6 = parseInt(document.getElementById("t6").value);
+                var T7 = document.getElementById("t7").value=T1+T2+T3+T4+T5+T6;
+			
+        }
+
+        function grade()
+        {   
+        	for(var a = 1; a<5; a++)
+            {	
+        	       	  var x = document.getElementById("t"+a).value;
+        	       	  	
+        	       if(x<=100 && x>=80)
+        	       {                    
+                      var x = document.getElementById("g"+a).value="A";
+                   }
+                   else if(x<=79 && x>=70)
+                   {   
+                      var x = document.getElementById("g"+a).value="B";
+                   }
+                   else if(x<=69 && x>=60)
+                   {   
+                      var x = document.getElementById("g"+a).value="C";
+                   }
+                   else if(x<=59 && x>=50)
+                   {   
+                      var x = document.getElementById("g"+a).value="D";
+                   }
+                   else if(x<=49 && x>=45)
+                   {   
+                      var x = document.getElementById("g"+a).value="E";
+                   }
+                   else if(x<=44 && x>=40)
+                   {   
+                      var x = document.getElementById("g"+a).value="Pass";
+                   }
+                   
+                   else if(x<39) 	                  
+                   {  
+                      var x = document.getElementById("g"+a).value="Fail";    
+                   } 
+            }       
+            
+        }
+
+        function grade1()
+        {   
+        	for(var a = 5; a<7; a++)
+            {	
+        	       	  var x = document.getElementById("t"+a).value;
+        	       	  	
+        	       if(x<=100/2 && x>=80/2)
+        	       {                    
+                      var x = document.getElementById("g"+a).value="A";
+                   }
+                   else if(x<=79/2 && x>=70/2)
+                   {   
+                      var x = document.getElementById("g"+a).value="B";
+                   }
+                   else if(x<=69/2 && x>=60/2)
+                   {   
+                      var x = document.getElementById("g"+a).value="C";
+                   }
+                   else if(x<=59/2 && x>=50/2)
+                   {   
+                      var x = document.getElementById("g"+a).value="D";
+                   }
+                   else if(x<=49/2 && x>=45/2)
+                   {   
+                      var x = document.getElementById("g"+a).value="E";
+                   }
+                   else if(x<=44/2 && x>=40/2)
+                   {   
+                      var x = document.getElementById("g"+a).value="Pass";
+                   }
+                   
+                   else if(x<39/2) 	                  
+                   {  
+                      var x = document.getElementById("g"+a).value="Fail";    
+                   } 
+            }       
+            
+        }
+
+        function RP()
+        {
+                var T1 = parseInt(document.getElementById("t1").value);
+                var T2 = parseInt(document.getElementById("t2").value);
+                var T3 = parseInt(document.getElementById("t3").value);
+                var T4 = parseInt(document.getElementById("t4").value);
+                var T5 = parseInt(document.getElementById("t5").value);
+                var T6 = parseInt(document.getElementById("t6").value);
+                var T7 = document.getElementById("G3").value=T1+T2+T3+T4+T5+T6;
+
+                
+                
+                var per = T7/500*100;
+                var per1 = document.getElementById("P").value=per.toFixed(2);
+                 document.getElementById("P").value=per + '%';
+                
+             
+        }
+
+        function result()
+        {
+            var i1 = parseInt(document.getElementById("i1").value);
+            var i2 = parseInt(document.getElementById("i2").value);
+            var i3 = parseInt(document.getElementById("i3").value);
+            var i4 = parseInt(document.getElementById("i4").value);
+            var i5 = parseInt(document.getElementById("i5").value);
+            var i6 = parseInt(document.getElementById("i6").value);
+
+            var e1 = parseInt(document.getElementById("e1").value);
+            var e2 = parseInt(document.getElementById("e2").value);
+            var e3 = parseInt(document.getElementById("e3").value);
+            var e4 = parseInt(document.getElementById("e4").value);
+            var e5 = parseInt(document.getElementById("e5").value);
+            var e6 = parseInt(document.getElementById("e6").value);
+
+            if(i1<9 || i2<9 || i3<9 || i4<9 || i5<9 || i6<9 || e5<9 || e6<9 || e1<28 || e2<28 || e3<28 || e4<28)
+            {
+            document.getElementById("R").value="Fail";
+            	
+            }
+            else
+            {
+            document.getElementById("R").value="Pass";
+
+            }
+
+        }
+
+        function Alert()
+        {
+            var I1 = parseInt(document.getElementById("i1").value);
+            var I2 = parseInt(document.getElementById("i2").value);
+            var I3 = parseInt(document.getElementById("i3").value);
+            var I4 = parseInt(document.getElementById("i4").value);
+            var I5 = parseInt(document.getElementById("i5").value);
+            var I6 = parseInt(document.getElementById("i6").value);
+
+            var E1 = parseInt(document.getElementById("e1").value);
+            var E2 = parseInt(document.getElementById("e2").value);
+            var E3 = parseInt(document.getElementById("e3").value);
+            var E4 = parseInt(document.getElementById("e4").value);
+            var E5 = parseInt(document.getElementById("e5").value);
+            var E6 = parseInt(document.getElementById("e6").value);
+
+
+          
+            if(I1>25)
+            {
+                 alert("Please Enter valid input");
+                 document.getElementById("i1").value=" ";
+            }
+            if(I2>25)
+            {
+                 alert("Please Enter valid input");
+                 document.getElementById("i2").value=" ";
+            }
+            if(I3>25)
+            {
+                 alert("Please Enter valid input");
+                 document.getElementById("i3").value=" ";
+            }
+            if(I4>25)
+            {
+                 alert("Please Enter valid input");
+                 document.getElementById("i4").value=" ";
+            }
+            if(I5>25)
+            {
+                 alert("Please Enter valid input");
+                 document.getElementById("i5").value=" ";
+            }
+            if(I6>25)
+            {
+                 alert("Please Enter valid input");
+                 document.getElementById("i6").value=" ";
+            }
+            if(E1>75)
+            {
+                 alert("Please Enter valid input");
+                 document.getElementById("e1").value=" ";
+            }
+            if(E2>75)
+            {
+                 alert("Please Enter valid input");
+                 document.getElementById("e2").value=" ";
+            }
+            if(E3>75)
+            {
+                 alert("Please Enter valid input");
+                 document.getElementById("e3").value=" ";
+            }
+            if(E4>75)
+            {
+                 alert("Please Enter valid input");
+                 document.getElementById("e4").value=" ";
+            }
+            if(E5>25)
+            {
+                 alert("Please Enter valid input");
+                 document.getElementById("e5").value=" ";
+            }
+            if(E6>25)
+            {
+                 alert("Please Enter valid input");
+                 document.getElementById("e6").value=" ";
+            }
+
+
+          
+            
+        }
+
+
+</script>
+
+</body>
+</html>
